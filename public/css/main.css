@@ -1,0 +1,479 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/*Login view*/
+.body {
+  background-color: rgb(255, 255, 255);
+  margin: 5px 5px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 2px;
+  width: auto;
+  height: auto;
+}
+.title {
+  color: rgb(23, 23, 23);
+  margin-left: -25px;
+  margin-top: -35px;
+}
+.frame {
+  background-color: rgb(16, 16, 16);
+  border: 3px solid rgb(255, 255, 255);
+  width: 1470px;
+  height: 665px;
+  padding: 10px;
+  margin: auto auto;
+  border-radius: 20px 20px 20px 20px;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(16, 16, 16);
+  height: 650px;
+}
+#principal {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(0, 0, 0);
+  margin: 1px auto;
+  width: 50%;
+  height: 650px;
+  padding: 5px;
+  margin: auto 50px;
+  border-radius: 20px 20px 20px 20px;
+}
+#login {
+  margin-top: -35px;
+}
+#sidebar {
+  background-color: rgb(203, 203, 203);
+  border: 3px solid rgb(255, 255, 255);
+  width: 25%;
+  height: 450px;
+  padding: 90px;
+  margin: 20px 30px;
+  border-radius: 10px 10px 10px 10px;
+}
+.welcome {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+#loginuser {
+  width: auto;
+  padding: 5px 10px;
+  margin-left: 5%;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 0%;
+}
+#loginpassword {
+  width: auto;
+  padding: 5px 10px;
+  margin-left: 5%;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 0%;
+}
+.loginuser {
+  display: block;
+  margin: 0.5rem 0;
+  background-color: rgb(203, 203, 203);
+  margin: 10px 10px;
+  font-size: 20px;
+  font-style: normal;
+  text-align: right;
+}
+.loginpassword {
+  display: block;
+  margin: 0.5rem 0;
+  background-color: rgb(203, 203, 203);
+  margin: 10px 10px;
+  font-size: 20px;
+  font-style: normal;
+  text-align: right;
+}
+.user i {
+  color: #3d3c3c;
+  transition: background 1s;
+}
+.password i {
+  color: #3d3c3c;
+  transition: background 1s;
+}
+.loginbutton {
+  width: auto;
+  padding: 5px 20px;
+  margin-left: 5%;
+  cursor: pointer;
+  font-size: 15px;
+}
+.loginbutton i {
+  flex-basis: 48%;
+  font-size: 17px;
+  color: #646262;
+  transition: background 1s;
+  text-align: center;
+}
+#forget {
+  text-align: justify;
+  margin-left: 0%;
+  font-size: 20px;
+  color: rgb(43, 84, 160);
+  text-decoration: none;
+}
+.forget i {
+  color: #3d3c3c;
+  transition: background 1s;
+}
+a {
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+a:link {
+  color: rgb(43, 84, 160);
+  text-decoration: none;
+}
+.error {
+  font-size: 15px;
+  color: #ed0d0d;
+  text-align: left;
+  position: relative;
+}
+.box {
+  width: 740px;
+  height: 600px;
+  margin: 25px auto;
+}
+.box1 {
+  width: 200px;
+  height: 200px;
+  margin-left: 25%;
+  position: absolute;
+}
+.cover {
+  object-fit: cover;
+  border-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  border-style: solid;
+}
+#img {
+  height: 100%;
+  width: 100%;
+}
+#img2 {
+  height: 100%;
+  width: 100%;
+  opacity: 70%;
+}
+/*Header view*/
+.frameheader {
+  background-color: rgb(255, 255, 255);
+  width: 1510px;
+  height: 665px;
+  margin-top: -8px;
+  margin-left: 12px;
+}
+.principal1 {
+  display: flex;
+  text-align: left;
+  margin-top: 0px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 1520px;
+  height: auto;
+  margin-left: -20px;
+}
+.box2 {
+  margin-left: 20px;
+}
+.box3 {
+  margin-right: 10px;
+}
+.welcome2 {
+  font-size: 20px;
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 15px;
+  display: flex;
+}
+.welcome2 i {
+  color: #d7cece;
+  transition: background 1s;
+  margin-top: 30px;
+}
+#img3 {
+  height: 200px;
+  width: 200px;
+  margin-top: 5px;
+}
+.cover2 {
+  object-fit: cover;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border-style: solid;
+}
+.profile {
+  font-size: 20px;
+  width: 300px;
+  height: 200px;
+  margin-left: 100px;
+  margin-right: -20px;
+}
+.watch {
+  font-size: 20px;
+  width: 300px;
+  height: 200px;
+  margin-left: 150px;
+  text-align: center;
+}
+.time {
+  display: flex;
+  margin-top: -30px;
+}
+.time i {
+  color: #d7cece;
+  transition: background 1s;
+  margin-top: 28px;
+}
+.date {
+  display: flex;
+  margin-top: 40px;
+}
+.date i {
+  color: #d7cece;
+  transition: background 1s;
+  margin-top: 26px;
+}
+.menu {
+  background-color: rgb(110, 110, 110);
+  width: 220px;
+  height: 450px;
+  margin-top: 1px;
+  margin-left: -20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5%;
+  text-align: center;
+}
+.option {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.options {
+  background-color: rgb(203, 203, 203);
+  border-radius: 8%;
+  width: 210px;
+  height: 390px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 5px;
+  margin-top: -20px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+nav {
+  float: none;
+}
+nav ul li {
+  list-style: none;
+  float: none;
+  position: relative;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-weight: lighter;
+  display: block;
+}
+nav ul li a::before {
+  width: 0%;
+  background: #444;
+  height: 4px;
+  top: 0;
+  position: absolute;
+  display: block;
+  content: "";
+  transition: width 1s;
+}
+nav ul li a:hover::before {
+  width: 80%;
+  height: 4%;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+.logout i {
+  color: #ed0d0d;
+  transition: background 1s;
+}
+/*Footer view*/
+.footer {
+  background-color: rgb(0, 0, 0);
+  margin-top: -13px;
+  width: 1510px;
+  height: 15px;
+}
+.h6footer {
+  text-align: center;
+  color: #d7cece;
+}
+/*Seller view*/
+.box4 {
+  display: flex;
+  position: absolute;
+}
+#img4 {
+  margin-top: -470px;
+  margin-left: 215px;
+  border-radius: 2%;
+  width: 1295px;
+  height: 450px;
+  opacity: 0.4;
+}
+/* view Read_customer*/
+.title2 {
+  color: rgb(23, 23, 23);
+  background-color: #d7cece;
+  position: relative;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.ReadCustomer-table {
+  margin-top: -470px;
+  margin-left: 360px;
+  position: absolute;
+}
+.ReadC-table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  table-layout: fixed;
+}
+.tr-ReadC {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+.th-ReadC {
+  padding: 5px;
+  text-align: center;
+  font-size: 0.85em;
+}
+.th-ReadC a {
+  outline: none;
+  text-decoration: none;
+}
+.th-ReadC a:link {
+  text-decoration: none;
+  color: rgb(43, 84, 160);
+}
+.th-ReadC a:visited {
+  text-decoration: none;
+  color: rgb(43, 84, 160);
+}
+#th-ReadC-edit i {
+  margin-left: 5px;
+  color: #687b1c;
+}
+#th-ReadC-delete i {
+  margin-left: 5px;
+  color: #941414;
+}
+
+/*View Create Customer*/
+.CreateCustomer-table {
+  margin-top: -470px;
+  margin-left: 600px;
+  position: absolute;
+}
+.title3 {
+  color: rgb(23, 23, 23);
+  background-color: #d7cece;
+  position: relative;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 400px;
+}
+.new.register {
+  color: rgb(23, 23, 23);
+  background-color: #d7cece;
+  position: relative;
+  font-size: 15px;
+}
+.input-field {
+  background-color: #d0d1d1;
+  margin: 10px 0;
+  border-radius: 5px;
+  align-items: center;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+.input-field input {
+  width: 450px;
+  height: 20px;
+  background: transparent;
+  border: 0;
+  outline: none;
+  padding: 15px 12px;
+  color: #242526;
+  font-size: 17px;
+}
+.input-field input::placeholder {
+  color: #4c4f95;
+  font-size: 18px;
+}
+.input-field i {
+  margin-left: 15px;
+  color: #602ea4;
+}
+.btn-field {
+  width: 400px;
+  justify-content: space-between;
+}
+.btn-field span {
+  margin-left: 5px;
+  color: azure;
+  font-size: 17px;
+}
+.btn-field button {
+  flex-basis: 48%;
+  height: 35px;
+  border-radius: 15px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+  text-align: center;
+  margin-left: 180px;
+  margin-top: -5px;
+}
+.btn-field i {
+  margin-left: 5px;
+  color: #ffffff;
+}
+#create-customer {
+  background-color: #0d7018;
+}
+#create-customer:hover {
+  background-color: #0e5a0d;
+}
+
+/*View Update Customer*/
+.UpdateCustomer-table {
+  margin-top: -470px;
+  margin-left: 600px;
+  position: absolute;
+}
+#update-customer {
+  background-color: #96b62c;
+}
+#update-customer:hover {
+  background-color: #5e761f;
+}
